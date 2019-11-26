@@ -29,3 +29,34 @@ II.	Game Screen and
 III.	End Screen
 
 •	Included Button debouncing 
+
+
+DESIGN 
+
+
+Working
+
+
+The design is a simple pong game which is modified for the player to play the game between Player and Teensy. Teensy is assigned to the left of the screen and the player is assigned to the right of the screen, where the player‘s paddle is manually controlled using the potentiometer. 
+
+The game is designed in such a way that the if any of the player miss the ball and it hits on the wall the opposite player will gain a point. The score required to win the match is 4.The scores are updated on the screen.
+
+
+Pin Allocation
+
+
+The pin allocated to control the game are as follows:
+
+Start/ Pause – Digital Pin 11 (Left push button)
+
+Reset - Digital pin 12 (Right Push Button)
+
+Player’s Paddle control – Analog Pin 06 (Potentiometer)
+
+Game Control
+
+
+To start the game Push the start / Pause button. If the Game is in a running state and need a pause start the Start or Pause button again to pause i.e., change of state. To reset the game press reset button.
+
+ For the player to control the paddle to avoid missing the ball , turn the potentiometer in such a way that the paddle moves in up/down direction to hit the ball back to the opposite player (teensy)
+
