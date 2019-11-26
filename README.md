@@ -105,6 +105,9 @@ Test 1
 
 Start_ Game  Screen
 
+[WhatsApp Image 2019-11-26 at 3 25 23 PM](https://user-images.githubusercontent.com/53546301/69624652-fee29100-10a9-11ea-8600-d8e2aebe3e12.jpeg)
+
+
 It is the initial state of the game. This state gives the instruction on how to access the game screen, what is the target of each player to win the game. The below image is the display of the start screen.
 
 
@@ -113,6 +116,11 @@ It is the initial state of the game. This state gives the instruction on how to 
 Test 2
 
 Playing Screen
+
+
+![WhatsApp Image 2019-11-26 at 3 25 24 PM(1)](https://user-images.githubusercontent.com/53546301/69624773-289bb800-10aa-11ea-914c-f85ecad9f180.jpeg)
+
+
 
 The below image shows the “playing screen” of the game on the screen. This screen popups when the Start button is pressed as per the instruction given in the start screen. I this screen the actual match between the “Teensy player” and the “Player X” take place. Whenever any of the players gain a point, the score card will get automatically updated. 
 
@@ -123,11 +131,17 @@ Test 3
 Pause _Game Screen
 
 
+![WhatsApp Image 2019-11-26 at 3 25 24 PM](https://user-images.githubusercontent.com/53546301/69624832-4701b380-10aa-11ea-8a41-1a0037108e78.jpeg)
+
+
+
 The below image shows the “pause” stage of the game on the screen. In this case if the match between the “Teensy player “and the “Player X” is going on as the game is in playing state and if the manual player want a sudden pause from the game, by Pressing the start  button again ,the game will get pause unless the start button is again toggled .
 
 Test 4
 
 End_Game  Screen
+
+![WhatsApp Image 2019-11-26 at 3 25 25 PM](https://user-images.githubusercontent.com/53546301/69624857-554fcf80-10aa-11ea-9a88-633086260624.jpeg)
 
 The below image shows the End screen of the game on the screen as any of the player achieved the target score. If the Teensy player wins the end screen displays “TEENSY WON” or in other case it displays “PLAYER X WON”. Moreover, it also provides the instruction on how to restart the game.
 
