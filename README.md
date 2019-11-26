@@ -1,6 +1,8 @@
 Assignment 2 – FINITE STATE MACHINE
  
 ABSTRACT
+
+
 The single player version of famous pong game was implemented using Teensy 3.2 development board, Push buttons, Potentiometer, and SSD1306 OLED display.
 The game is implemented as state machine with 
 1.	Start Screen
