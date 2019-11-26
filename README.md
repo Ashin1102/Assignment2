@@ -23,7 +23,9 @@ OBJECTIVE
      The Game must include:-
      
 I.	Start Screen
-II.	Game Screen and 
+
+II.	Game Screen and
+
 III.	End Screen
 
 •	Included Button debouncing 
