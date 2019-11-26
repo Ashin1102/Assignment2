@@ -51,6 +51,8 @@ METHODOLOGY
 
 Components Selection
 
+![IMG_2495](https://user-images.githubusercontent.com/53546301/69625575-bdeb7c00-10ab-11ea-97c3-cc0afb2683f8.JPG)
+
 •	Here I have used two push buttons for start/Pause and reset function, which are used for hardware interrupts. 
 
 •	To control the player’s paddle I have used potentiometer by mapping the analog input with respect to screen height.
@@ -105,7 +107,7 @@ Test 1
 
 Start_ Game  Screen
 
-[WhatsApp Image 2019-11-26 at 3 25 23 PM](https://user-images.githubusercontent.com/53546301/69624652-fee29100-10a9-11ea-8600-d8e2aebe3e12.jpeg)
+![WhatsApp Image 2019-11-26 at 3 25 24 PM(1)](https://user-images.githubusercontent.com/53546301/69625755-276b8a80-10ac-11ea-8749-d932887d5df5.jpeg)
 
 
 It is the initial state of the game. This state gives the instruction on how to access the game screen, what is the target of each player to win the game. The below image is the display of the start screen.
@@ -117,8 +119,8 @@ Test 2
 
 Playing Screen
 
+![IMG_2464](https://user-images.githubusercontent.com/53546301/69625726-1d498c00-10ac-11ea-9649-3256c691cc86.JPG)
 
-![WhatsApp Image 2019-11-26 at 3 25 24 PM(1)](https://user-images.githubusercontent.com/53546301/69624773-289bb800-10aa-11ea-914c-f85ecad9f180.jpeg)
 
 
 
@@ -131,7 +133,6 @@ Test 3
 Pause _Game Screen
 
 
-![WhatsApp Image 2019-11-26 at 3 25 24 PM](https://user-images.githubusercontent.com/53546301/69624832-4701b380-10aa-11ea-8a41-1a0037108e78.jpeg)
 
 
 
@@ -141,7 +142,7 @@ Test 4
 
 End_Game  Screen
 
-![WhatsApp Image 2019-11-26 at 3 25 25 PM](https://user-images.githubusercontent.com/53546301/69624857-554fcf80-10aa-11ea-9a88-633086260624.jpeg)
+
 
 The below image shows the End screen of the game on the screen as any of the player achieved the target score. If the Teensy player wins the end screen displays “TEENSY WON” or in other case it displays “PLAYER X WON”. Moreover, it also provides the instruction on how to restart the game.
 
