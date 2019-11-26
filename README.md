@@ -107,7 +107,8 @@ Test 1
 
 Start_ Game  Screen
 
-![WhatsApp Image 2019-11-26 at 3 25 24 PM(1)](https://user-images.githubusercontent.com/53546301/69625755-276b8a80-10ac-11ea-8749-d932887d5df5.jpeg)
+![IMG_2464](https://user-images.githubusercontent.com/53546301/69625726-1d498c00-10ac-11ea-9649-3256c691cc86.JPG)
+
 
 
 It is the initial state of the game. This state gives the instruction on how to access the game screen, what is the target of each player to win the game. The below image is the display of the start screen.
@@ -119,7 +120,8 @@ Test 2
 
 Playing Screen
 
-![IMG_2464](https://user-images.githubusercontent.com/53546301/69625726-1d498c00-10ac-11ea-9649-3256c691cc86.JPG)
+![IMG_2465](https://user-images.githubusercontent.com/53546301/69625977-921cc600-10ac-11ea-9505-369561ea2bf3.JPG)
+
 
 
 
@@ -132,7 +134,7 @@ Test 3
 
 Pause _Game Screen
 
-
+![IMG_2466](https://user-images.githubusercontent.com/53546301/69626562-c1800280-10ad-11ea-91a0-3dda40453d92.JPG)
 
 
 
@@ -142,7 +144,7 @@ Test 4
 
 End_Game  Screen
 
-
+![IMG_2467](https://user-images.githubusercontent.com/53546301/69626706-06a43480-10ae-11ea-9345-a2fac51b9f25.JPG)
 
 The below image shows the End screen of the game on the screen as any of the player achieved the target score. If the Teensy player wins the end screen displays “TEENSY WON” or in other case it displays “PLAYER X WON”. Moreover, it also provides the instruction on how to restart the game.
 
