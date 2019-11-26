@@ -177,6 +177,6 @@ The Waveform traced from connecting SDA and GND of the SSD1306 Display to Channe
 
 
 
-Change in the value of PULL UP resistance will increase or decrease flow of current which leads to the charging of bus capacitor the bus capacitance. Higher the resistance value increase the capacitance charging time or vice versa. By using a proper value of Resistance could partially avoid this adverse effect. Which won’t make any Interrupt  during  communication .
+Change in the value of PULL UP resistance will increase or decrease flow of current which leads to the charging of bus capacitor the bus capacitance. Higher the resistance value increase the capacitance charging time or vice versa. By using a proper value of Resistance could partially avoid this adverse effect,that would limit the negetive impact on signal integrity .
 
 
