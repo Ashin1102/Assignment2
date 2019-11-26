@@ -60,3 +60,48 @@ To start the game Push the start / Pause button. If the Game is in a running sta
 
  For the player to control the paddle to avoid missing the ball , turn the potentiometer in such a way that the paddle moves in up/down direction to hit the ball back to the opposite player (teensy)
 
+Testing and Verification
+
+The stages of the FSM are tested .The tested four stages are as follows:
+
+Sate1 – Start Game
+
+State2 – Playing stage
+
+State 3 – Pause Game
+
+State 4 – Game Ends
+
+The testing results of the above stages are follows
+
+Test 1
+
+Start_ Game  Screen
+
+It is the initial state of the game. This state gives the instruction on how to access the game screen, what is the target of each player to win the game. The below image is the display of the start screen.
+
+
+
+
+Test 2
+
+Playing Screen
+
+The below image shows the “playing screen” of the game on the screen. This screen popups when the Start button is pressed as per the instruction given in the start screen. I this screen the actual match between the “Teensy player” and the “Player X” take place. Whenever any of the players gain a point, the score card will get automatically updated. 
+
+
+
+Test 3
+
+Pause _Game Screen
+
+
+The below image shows the “pause” stage of the game on the screen. In this case if the match between the “Teensy player “and the “Player X” is going on as the game is in playing state and if the manual player want a sudden pause from the game, by Pressing the start  button again ,the game will get pause unless the start button is again toggled .
+
+Test 4
+
+End_Game  Screen
+
+The below image shows the End screen of the game on the screen as any of the player achieved the target score. If the Teensy player wins the end screen displays “TEENSY WON” or in other case it displays “PLAYER X WON”. Moreover, it also provides the instruction on how to restart the game.
+
+
