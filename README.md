@@ -1,6 +1,6 @@
 Assignment 2 – FINITE STATE MACHINE
  
-ABSTRACT
+i.ABSTRACT
 
 
 The single player version of famous pong game was implemented using Teensy 3.2 development board, Push buttons, Potentiometer, and SSD1306 OLED display.
@@ -14,7 +14,7 @@ The Start, Pause and Resets are controlled by push buttons whereas the potentiom
 The debouncing of Start/Pause button and Reset Button is successfully implemented within the program.
 
 
-OBJECTIVE
+ii.OBJECTIVE
 
 •	The main objective of this assignment is to develop a game, which need to be implemented as state machine.
 
@@ -31,7 +31,8 @@ III.	End Screen
 •	Included Button debouncing 
 
 
-METHODOLOGY
+iii.METHODOLOGY
+
 ![circuit](https://user-images.githubusercontent.com/53546301/69624368-7106a600-10a9-11ea-9371-55554e8b4444.jpg)
  
 •	The teensy 3.2 digital in have an output of 3.3v and up to 10Ma.
@@ -49,18 +50,18 @@ METHODOLOGY
 ![pin](https://user-images.githubusercontent.com/53546301/69624375-72d06980-10a9-11ea-88b0-a2b98a82e587.jpg)
 
 
-Components Selection
+iv.Components Selection
 
 ![IMG_2495](https://user-images.githubusercontent.com/53546301/69625575-bdeb7c00-10ab-11ea-97c3-cc0afb2683f8.JPG)
 
 •	Here I have used two push buttons for start/Pause and reset function, which are used for hardware interrupts. 
 
-•	To control the player’s paddle I have used potentiometer by mapping the analog input with respect to screen height.
+•	To control the player’s paddle I have used 10 Kohm potentiometer by mapping the analog input with respect to screen height.
 
 •	A 128 x 64 monochrome display running on SSD1306 driver communicated via i2c interface is used for displaying the game states.
 
 
-DESIGN 
+v.DESIGN 
 
 
 Working
@@ -89,19 +90,21 @@ To start the game Push the start / Pause button. If the Game is in a running sta
 
  For the player to control the paddle to avoid missing the ball , turn the potentiometer in such a way that the paddle moves in up/down direction to hit the ball back to the opposite player (teensy)
 
-Testing and Verification
+vi. RESULT
+
+1.Testing and Verification
 
 ![Blank Diagram](https://user-images.githubusercontent.com/53546301/69626899-72869d00-10ae-11ea-8b7a-5923be0353cd.jpeg)
 
 The stages of the FSM are tested .The tested four stages are as follows:
 
-Sate1 – Start Game
+Sate1 – Start_Game
 
-State2 – Playing stage
+State2 – Play_Game
 
-State 3 – Pause Game
+State 3 – Pause_Game
 
-State 4 – Game Ends
+State 4 – End_Game
 
 The testing results of the above stages are follows
 
@@ -149,5 +152,31 @@ End_Game  Screen
 ![IMG_2467](https://user-images.githubusercontent.com/53546301/69626706-06a43480-10ae-11ea-9345-a2fac51b9f25.JPG)
 
 The below image shows the End screen of the game on the screen as any of the player achieved the target score. If the Teensy player wins the end screen displays “TEENSY WON” or in other case it displays “PLAYER X WON”. Moreover, it also provides the instruction on how to restart the game.
+
+
+
+2. Signal Integrity
+
+
+1.	Here the value of Pull-Up resistor used in SSD1306 display device is 4.7KΩ 
+
+2.	The Wave form  for i2c  Clock and Data signal is captured
+
+CLOCK –SCK
+
+![0](https://user-images.githubusercontent.com/53546301/69634211-a1a10c80-10b6-11ea-87ba-2bd20a77cc50.jpg)
+
+The Waveform traced from connecting SCK and GND of the SSD1306 Display to Channel 1 of Digital Oscilloscope. 
+
+
+DATA- SDA
+
+![sck](https://user-images.githubusercontent.com/53546301/69634284-c85f4300-10b6-11ea-9e6f-20ca1b79a420.jpg)
+
+The Waveform traced from connecting SDA and GND of the SSD1306 Display to Channel 1 of Digital Oscilloscope
+
+
+
+Change in the value of PULL UP resistance will increase or decrease flow of current which leads to the charging of bus capacitor the bus capacitance. Higher the resistance value increase the capacitance charging time or vice versa. By using a proper value of Resistance could partially avoid this adverse effect. Which won’t make any Interrupt  during  communication .
 
 
