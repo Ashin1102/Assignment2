@@ -31,6 +31,33 @@ III.	End Screen
 •	Included Button debouncing 
 
 
+METHODOLOGY
+![circuit](https://user-images.githubusercontent.com/53546301/69624368-7106a600-10a9-11ea-9371-55554e8b4444.jpg)
+ 
+•	The teensy 3.2 digital in have an output of 3.3v and up to 10Ma.
+
+•	The OLED display’s SDA, SCK, VCC and Ground pins are connected to the micro controller pin 18, 19, VCC and ground. The display uses an i2c communication protocol with a communication address of Ox3Ce.
+
+•	The Potentiometer is connected across the analog pin A6 which is designed to control the player paddle
+
+•	The  Start/ Pause and reset push buttons activate the software interrupt by pulling the microcontroller pins 11 and 12 to ground these are internally pulled up to avoid floating
+
+•	The Start /Pause button carries the function of Start or Pause depending on the current state of the game.
+
+•	The reset button is caries the function of resetting the game
+
+![pin](https://user-images.githubusercontent.com/53546301/69624375-72d06980-10a9-11ea-88b0-a2b98a82e587.jpg)
+
+
+Components Selection
+
+•	Here I have used two push buttons for start/Pause and reset function, which are used for hardware interrupts. 
+
+•	To control the player’s paddle I have used potentiometer by mapping the analog input with respect to screen height.
+
+•	A 128 x 64 monochrome display running on SSD1306 driver communicated via i2c interface is used for displaying the game states.
+
+
 DESIGN 
 
 
