@@ -91,6 +91,8 @@ To start the game Push the start / Pause button. If the Game is in a running sta
 
 Testing and Verification
 
+![Blank Diagram](https://user-images.githubusercontent.com/53546301/69626899-72869d00-10ae-11ea-8b7a-5923be0353cd.jpeg)
+
 The stages of the FSM are tested .The tested four stages are as follows:
 
 Sate1 – Start Game
