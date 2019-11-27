@@ -1,3 +1,8 @@
+                                            
+  ![IMG_2503](https://user-images.githubusercontent.com/53546301/69683549-0b9ecd80-111a-11ea-96f9-b2a1eefb8fdd.jpg)
+                                            
+                                            
+                                            
                                             Assignment 2 – FINITE STATE MACHINE
  
         i. ABSTRACT
