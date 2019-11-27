@@ -3,7 +3,7 @@
                                             
                                             
                                             
-                                            Assignment 2 – FINITE STATE MACHINE
+                                         Assignment 2 – FINITE STATE MACHINE
  
         i. ABSTRACT
 
@@ -214,11 +214,15 @@ A well commented source code for my assignment is visinle at https://github.com/
   2. https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
 
 
-          X REFERENCES
+          X. REFERENCES
           
 (n.d.). Retrieved from https://components101.com/oled-display-ssd1306
+
 (n.d.). Retrieved from https://www.youtube.com/watch?v=Sb83upcxNVk&t=87s
+
 (n.d.). Retrieved from https://github.com/shveytank/Arduino_Pong_Game/blob/master/Arduino_Pong_Game.ino
+
 (n.d.). Retrieved from https://learn.adafruit.com/monochrome-oled-breakouts/wiring-128x64-oleds
+
 (n.d.). Retrieved from https://learn.adafruit.com/monochrome-oled-breakouts/arduino-library-and-examples
 
