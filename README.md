@@ -75,7 +75,7 @@ III.	End Screen
              v.DESIGN 
 
 
-Working
+1.Working
 
 
 The design is a simple pong game which is modified for the player to play the game between Player and Teensy. Teensy is assigned to the left of the screen and the player is assigned to the right of the screen, where the player‘s paddle is manually controlled using the potentiometer. 
@@ -83,7 +83,7 @@ The design is a simple pong game which is modified for the player to play the ga
 The game is designed in such a way that the if any of the player miss the ball and it hits on the wall the opposite player will gain a point. The score required to win the match is 4.The scores are updated on the screen.
 
 
-Pin Allocation
+2.Pin Allocation
 
 
 The pin allocated to control the game are as follows:
@@ -94,12 +94,13 @@ Reset - Digital pin 12 (Right Push Button)
 
 Player’s Paddle control – Analog Pin 06 (Potentiometer)
 
-Game Control
+3.Game Control
 
 
 To start the game Push the start / Pause button. If the Game is in a running state and need a pause start the Start or Pause button again to pause i.e., change of state. To reset the game press reset button.
 
  For the player to control the paddle to avoid missing the ball , turn the potentiometer in such a way that the paddle moves in up/down direction to hit the ball back to the opposite player (teensy)
+ 
 
            vi. RESULT
 
@@ -126,6 +127,7 @@ Test 1
 
 
 Start_ Game  Screen
+
 
 
 
@@ -207,5 +209,16 @@ A well commented source code for my assignment is visinle at https://github.com/
   Eventhough the game is working fine, the ball movement is in a constant speed.The future improvemments can be made by improving the ball speed to upgrade with different levels for the pong game.
   
             iX.APPENDIX
-            
-  
+        
+  1. https://www.pjrc.com/teensy/card7a_rev1.pdf
+  2. https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+
+
+          X REFERENCES
+          
+(n.d.). Retrieved from https://components101.com/oled-display-ssd1306
+(n.d.). Retrieved from https://www.youtube.com/watch?v=Sb83upcxNVk&t=87s
+(n.d.). Retrieved from https://github.com/shveytank/Arduino_Pong_Game/blob/master/Arduino_Pong_Game.ino
+(n.d.). Retrieved from https://learn.adafruit.com/monochrome-oled-breakouts/wiring-128x64-oleds
+(n.d.). Retrieved from https://learn.adafruit.com/monochrome-oled-breakouts/arduino-library-and-examples
+
